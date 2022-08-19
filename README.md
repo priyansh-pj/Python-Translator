@@ -1,2 +1,17 @@
-# Projects
-Here you can have a look at some of my projects. Wish you liked it.
+# Python Translator
+This is an Offline python translator support
+ - English - English
+ - English - Spanish
+ - English - Portuguese
+ - English - Chinese
+ 
+You can input via two methods 
+ - Making a file and passing their respective path (NOTE : Use unix base path)
+ - Input via console
+
+ # Requirement
+ This Script depends on [Python Translate](https://pypi.org/project/translate/) Package. You can install it with 
+ ```
+ pip install translate
+ ```
+ 
