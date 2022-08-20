@@ -65,7 +65,7 @@ if __name__ == '__main__':
     while True:
         lang_choice = int(input(
             '----Languages----\n1. English(en)\n2. Spanish(es)\n3. Portuguese(pt)\n4. Chinese(zh)\n5. French(fr)\n6. German(de)\n7. Korean(ko)\n8. Japanese(ja)\n9. Hindi(hi)\n10. Russian(ru)\nEnter your choice (1-11) : '))
-        if 1 <= lang_choice <= 11:
+        if 1 <= lang_choice <= 10:
             translator = Translator(to_lang=lang[lang_choice])
             while True:
                 print('----Mode Selection----')
