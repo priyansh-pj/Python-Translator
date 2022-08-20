@@ -4,6 +4,12 @@ This is an Offline python translator support
  - English - Spanish
  - English - Portuguese
  - English - Chinese
+ - English - French
+ - English - German
+ - English - Korean
+ - English - Japanese
+ - English - Hindi
+ - English - Russian
  
 You can input via two methods 
  - Making a file and passing their respective path (NOTE : Use unix base path)
