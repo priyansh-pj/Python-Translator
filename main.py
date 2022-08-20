@@ -4,14 +4,26 @@ lang = {
     1: 'en',
     2: 'es',
     3: 'pt',
-    4: 'zh'
+    4: 'zh',
+    5: 'fr',
+    6: 'de',
+    7: 'ko',
+    8: 'ja',
+    9: 'hi',
+    10: 'ru'
 }
 
 languages = {
-    1 : 'English',
-    2 : 'Spanish',
-    3 : 'Portuguese',
-    4 : 'Chinese'
+    1: 'English',
+    2: 'Spanish',
+    3: 'Portuguese',
+    4: 'Chinese',
+    5: 'French',
+    6: 'German',
+    7: 'Korean',
+    8: 'Japanese',
+    9: 'Hindi',
+    10: 'Russian',
 }
 
 def console_input(translator,language):
@@ -52,8 +64,8 @@ def file_input(translator,language):
 if __name__ == '__main__':
     while True:
         lang_choice = int(input(
-            '----ISO 639-1 ----\n1. English(en)\n2. Spanish(es)\n3. Portuguese(pt)\n4. Chinese(zh)\nEnter your choice (1-4) : '))
-        if 1 <= lang_choice <= 4:
+            '----Languages----\n1. English(en)\n2. Spanish(es)\n3. Portuguese(pt)\n4. Chinese(zh)\n5. French(fr)\n6. German(de)\n7. Korean(ko)\n8. Japanese(ja)\n9. Hindi(hi)\n10. Russian(ru)\nEnter your choice (1-11) : '))
+        if 1 <= lang_choice <= 11:
             translator = Translator(to_lang=lang[lang_choice])
             while True:
                 print('----Mode Selection----')
@@ -65,4 +77,4 @@ if __name__ == '__main__':
                     file_input(translator, languages[lang_choice])
                     break
 
-        break
+            break
